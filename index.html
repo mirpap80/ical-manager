@@ -13,13 +13,14 @@
         
         /* STILI PER CALENDARIO ORIZZONTALE */
         #calendar-container {
-            overflow-x: auto; /* Permette lo scroll laterale */
-            white-space: nowrap; /* I giorni restano in riga */
-            border: 1px solid #e5e7eb;
-            border-radius: 0.75rem;
-            padding-bottom: 8px;
-            background-color: #f9fafb;
-        }
+    overflow-x: auto; /* Permette lo scroll laterale */
+    white-space: nowrap; /* I giorni restano in riga */
+    border: 1px solid #e5e7eb;
+    border-radius: 0.75rem;
+    background-color: #f9fafb;
+    /* NUOVO: Imposta la dimensione del font a 0 per rimuovere lo spazio tra gli inline-block */
+    font-size: 0; 
+}
 
         /* Colonna del singolo giorno */
         .day-column {
@@ -460,6 +461,7 @@
     </script>
 </body>
 </html>
+
 
 
 
